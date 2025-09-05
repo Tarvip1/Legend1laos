@@ -1,8 +1,14 @@
-export default function Home() {
-  return (
-    <div>
-      <h1>Legend Game Proxy</h1>
-      <p>ลองเรียก API ที่ /api/game?id=1</p>
-    </div>
-  );
+{
+  "name": "legend-game-proxy",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "next": "13.4.0",
+    "react": "18.2.0",
+    "react-dom": "18.2.0"
+  }
 }
