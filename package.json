@@ -1,0 +1,8 @@
+export default function Home() {
+  return (
+    <div>
+      <h1>Legend Game Proxy</h1>
+      <p>ลองเรียก API ที่ /api/game?id=1</p>
+    </div>
+  );
+}
